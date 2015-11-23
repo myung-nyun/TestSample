@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><o:policy xmlns:o="http://www.readium.org/ns/epub-rel" xmlns:fs="http://www.fasoo.com/ODRL-FS" type="http://w3.org/ns/odrl/vocab#agreement" uid="49CA490A-8A0E-4D5D-94E0-9272046D7879">
+<o:permission id="4ef0e349-892d-4f9f-98f5-1ae2803d9031">
+<o:action id="25420c6c-b65d-4648-bf2d-c4d04a7d7c3b" name="http://w3.org/ns/odrl/vocab#display"/>
+<o:asset id="epub" uid="epub"/>
+<o:constraint id="25e66e3f-4860-41d6-acfc-2acfb653e2f3" name="http://w3.org/ns/odrl/vocab#count" operator="http://w3.org/ns/odrl/vocab#lteq" rightOperand="-1"/>
+<o:constraint id="b873e250-9915-4dac-9864-c022d3758c46" name="http://w3.org/ns/odrl/vocab#dateTime" operator="http://w3.org/ns/odrl/vocab#gteq" rightOperand="2015-01-01"/>
+<o:constraint id="3fe6ba1a-9659-45c8-bad5-a4f035749014" name="http://w3.org/ns/odrl/vocab#dateTime" operator="http://w3.org/ns/odrl/vocab#lteq" rightOperand="2015-11-27"/>
+<o:party function="http://w3.org/ns/odrl/vocab#assignee" id="632426b6-bb4e-4681-9480-3a11b4d65960" scope="http://w3.org/ns/odrl/vocab#individual" uid="reader@fasoo.com"/>
+</o:permission>
+<o:permission id="b6f3c17c-251c-4233-a217-7e16d574acf1">
+<o:action id="4708d230-7fa7-4481-bd39-188baf373ee0" name="http://w3.org/ns/odrl/vocab#play"/>
+<o:asset id="f21da8bf-dd11-41df-9f0d-58b048adcdf4" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/css/epub-spec.css"/>
+<o:asset id="0c1c2ae1-8139-4824-8703-8ec01717d889" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/img/idpflogo_web_125.jpg"/>
+<o:asset id="1da84f10-e3d9-420d-a40b-6363a2e2ab13" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-acknowledgements.xhtml"/>
+<o:asset id="b2a8853f-ffbf-4a63-9e58-766606c194bd" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-changes.xhtml"/>
+<o:asset id="35e736a5-4c22-422c-a59d-6e2b847bc70b" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-contentdocs.xhtml"/>
+<o:asset id="81b33e4f-4655-4ed6-9587-82d2362687a8" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-mediaoverlays.xhtml"/>
+<o:asset id="0775de31-74bb-47df-99c5-c47e9487932e" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-nav.xhtml"/>
+<o:asset id="b8dcb4cb-6640-49d0-aa96-e3bc84dc3429" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-ocf.xhtml"/>
+<o:asset id="3c2e4b38-9912-41b4-8e30-a0fabe047244" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-overview.xhtml"/>
+<o:asset id="640f11f4-401d-455f-95b5-04e9c48d96d0" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-publications.xhtml"/>
+<o:asset id="44c30da6-aefa-46de-b252-feab36195bef" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-references.xhtml"/>
+<o:asset id="efd09176-2b34-4e36-b83e-733068482e50" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-terminology.xhtml"/>
+<o:asset id="be0184f7-c180-4bdb-ac8f-087a7434bc7e" relation="http://w3.org/ns/odrl/vocab#target" uid="EPUB/xhtml/epub30-titlepage.xhtml"/>
+<o:constraint idref="25e66e3f-4860-41d6-acfc-2acfb653e2f3"/>
+<o:constraint idref="b873e250-9915-4dac-9864-c022d3758c46"/>
+<o:constraint idref="3fe6ba1a-9659-45c8-bad5-a4f035749014"/>
+<o:party idref="632426b6-bb4e-4681-9480-3a11b4d65960"/>
+</o:permission>
+<o:permission id="f4f73b9e-8432-4759-b6b0-2dce2fb12d60">
+<o:action id="29ac7f67-2993-42e6-ad64-f24e8653c9ad" name="http://w3.org/ns/odrl/vocab#display"/>
+<o:constraint idref="25e66e3f-4860-41d6-acfc-2acfb653e2f3"/>
+<o:constraint idref="b873e250-9915-4dac-9864-c022d3758c46"/>
+<o:constraint idref="3fe6ba1a-9659-45c8-bad5-a4f035749014"/>
+<o:party idref="632426b6-bb4e-4681-9480-3a11b4d65960"/>
+<o:asset idref="f21da8bf-dd11-41df-9f0d-58b048adcdf4"/>
+<o:asset idref="0c1c2ae1-8139-4824-8703-8ec01717d889"/>
+<o:asset idref="1da84f10-e3d9-420d-a40b-6363a2e2ab13"/>
+<o:asset idref="b2a8853f-ffbf-4a63-9e58-766606c194bd"/>
+<o:asset idref="35e736a5-4c22-422c-a59d-6e2b847bc70b"/>
+<o:asset idref="81b33e4f-4655-4ed6-9587-82d2362687a8"/>
+<o:asset idref="0775de31-74bb-47df-99c5-c47e9487932e"/>
+<o:asset idref="b8dcb4cb-6640-49d0-aa96-e3bc84dc3429"/>
+<o:asset idref="3c2e4b38-9912-41b4-8e30-a0fabe047244"/>
+<o:asset idref="640f11f4-401d-455f-95b5-04e9c48d96d0"/>
+<o:asset idref="44c30da6-aefa-46de-b252-feab36195bef"/>
+<o:asset idref="efd09176-2b34-4e36-b83e-733068482e50"/>
+<o:asset idref="be0184f7-c180-4bdb-ac8f-087a7434bc7e"/>
+</o:permission>
+<o:permission id="33e3ba62-a58a-4ab7-ae93-0ee89d4c1734">
+<o:action id="11b21921-5b15-4a0c-9ccb-3312e42b1971" name="http://w3.org/ns/odrl/vocab#print"/>
+<o:constraint idref="25e66e3f-4860-41d6-acfc-2acfb653e2f3"/>
+<o:constraint idref="b873e250-9915-4dac-9864-c022d3758c46"/>
+<o:constraint idref="3fe6ba1a-9659-45c8-bad5-a4f035749014"/>
+<o:party idref="632426b6-bb4e-4681-9480-3a11b4d65960"/>
+<o:asset idref="f21da8bf-dd11-41df-9f0d-58b048adcdf4"/>
+<o:asset idref="0c1c2ae1-8139-4824-8703-8ec01717d889"/>
+<o:asset idref="1da84f10-e3d9-420d-a40b-6363a2e2ab13"/>
+<o:asset idref="b2a8853f-ffbf-4a63-9e58-766606c194bd"/>
+<o:asset idref="35e736a5-4c22-422c-a59d-6e2b847bc70b"/>
+<o:asset idref="81b33e4f-4655-4ed6-9587-82d2362687a8"/>
+<o:asset idref="0775de31-74bb-47df-99c5-c47e9487932e"/>
+<o:asset idref="b8dcb4cb-6640-49d0-aa96-e3bc84dc3429"/>
+<o:asset idref="3c2e4b38-9912-41b4-8e30-a0fabe047244"/>
+<o:asset idref="640f11f4-401d-455f-95b5-04e9c48d96d0"/>
+<o:asset idref="44c30da6-aefa-46de-b252-feab36195bef"/>
+<o:asset idref="efd09176-2b34-4e36-b83e-733068482e50"/>
+<o:asset idref="be0184f7-c180-4bdb-ac8f-087a7434bc7e"/>
+</o:permission>
+</o:policy>
+
